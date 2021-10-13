@@ -8,7 +8,7 @@ const Shop = () => {
     const [cart,setCart]=useState([])
     useEffect(()=>{
         console.log('---1--- product called')
-        fetch('./products.json')
+        fetch('./products.JSON')
         .then(res => res.json())
         .then(data =>{
             setProducts(data)
