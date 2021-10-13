@@ -14,7 +14,6 @@ const Login = () => {
      .then(result =>{
         console.log(result.user)
         history.push(redirect_uri)
-
     })
     }
     return (
@@ -28,7 +27,7 @@ const Login = () => {
                     <br />
                     <input type="submit" value="Submit"></input>
                 </form>
-                <p>new to ema-jhon?
+                <p>New to ema-jhon?
                     <Link to="/register">Create Account</Link>
                 </p>
                 <div>-------------------or--------------</div>
