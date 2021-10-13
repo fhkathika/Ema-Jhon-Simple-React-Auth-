@@ -1,0 +1,14 @@
+.login-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.btn-regular{
+    background-color: goldenrod;
+    height: 30px;
+    width: 45%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,22 @@
+ .logo{
+height: 100px;
+}
+.header{
+    text-align: center;
+    
+}
+.header nav {
+   
+    background-color: black;
+}
+.header nav a{
+    text-decoration: none;
+    line-height: 40px;
+    margin-right:20px ;
+    font-size: 20px;
+    color: white;
+}
+.header nav a:hover{
+    background-color: gainsboro;
+}
+
